@@ -1,4 +1,4 @@
-# Google UI Replica with Vuetify
+# Google UI Clone with Vuetify
 
 This project is a Vue.js application that replicates the user interface of the Google website using the Vuetify framework. Vuetify is a Vue.js material component framework that enables developers to create stylish and responsive applications with ease.
 
