@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: #171717;
+  color: #fff;
+  padding: 15px;
+  font-weight: 300 !important;
+  font-size: 10.15pt;
+}
+
+.footer > div > div > span:hover {
+  text-decoration: underline;
+}
+
+.second-footer {
+  position: fixed;
+  width: 100%;
+  bottom: 45px; /* Adjust this value to set the height of the second footer */
+  background-color: #171717;
+  border-bottom: 1px solid #3c4043;
+  color: #fff;
+  padding: 15px;
+  font-weight: 300 !important;
+  font-size: 10.15pt;
+}
+
+.second-footer > div > span:hover {
+  text-decoration: underline;
+}
+
+#search_btn > .v-btn {
+  font-weight: 300 !important;
+  letter-spacing: 0.0892857143em;
+  line-height: normal;
+  text-indent: 0.0892857143em;
+  text-transform: none !important;
+  border: 1px solid #5f636800 !important;
+  background-color: #272626 !important;
+}
+
+#search_btn > .v-btn:hover {
+  background-color: #303134;
+  border: 1px solid #949494 !important;
+}
+
+.v-input--density-default {
+  --v-input-control-height: 48px !important;
+  --v-input-padding-top: 1px !important;
+}
+
+.v-field__input {
+  padding-bottom: 0px !important;
+}
+
+#language > p {
+  padding-left: 8px;
+  color: #8ab4f8;
+  cursor: pointer;
+}
+
+#language > p:hover {
+  text-decoration: underline;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #center_div {
+    margin: 25% 25%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #center_div {
+    margin: 35% 1%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #center_div {
+    margin: 30% auto;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #center_div {
+    margin: 10% auto;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  #center_div {
+    margin: 10% auto;
+  }
+}
